@@ -66,9 +66,9 @@
 			<!-- Navbar Logo -->
 			<a class="ui-variable-logo navbar-brand" href="index.html" title="VRT Select">
 				<!-- Default Logo -->
-				<img class="logo-default" src="assets/img/logo/applify-logo.png" alt="VRT Select" data-uhd>
+				<img class="logo-default" src="images/logo.png" style="width:5rem;height:auto" alt="VRT Select" data-uhd>
 				<!-- Transparent Logo -->
-				<img class="logo-transparent" src="assets/img/logo/applify-logo-white.png" alt="VRT Select" data-uhd>
+				<img class="logo-transparent" src="images/logotrans.png" style="width:5rem;height:auto" alt="VRT Select" data-uhd>
 			</a>
 			<!-- .navbar-brand -->
 
@@ -105,7 +105,7 @@
 	<div class="main" role="main">
 
 		<!-- Hero Waves Center -->
-		<div class="ui-hero hero-lg ui-gradient-blue ui-waves hero-svg-layer-3">
+		<div class="ui-hero hero-lg ui-gradient-custom ui-waves hero-svg-layer-3">
 
 			<div class="container">
 				<div class="row">
@@ -118,7 +118,7 @@
 						</p>
 						<div class="actions sp-layer" data-show-transition="up" data-show-delay="500" data-show-duration="500">
 							<a class="btn ui-gradient-blue shadow-xl" id="moreButton" data-scrollto="steps">Meer weten</a>
-							<a class="btn ui-gradient-green shadow-xl" href="#" id="wantButton" >Ik wil de app</a>
+							<a class="btn ui-gradient-green shadow-xl" href="#" data-scrollto="download" id="wantButton" >Ik wil de app</a>
 						</div>
 					</div>
 					<div class="col-md-6 sp-layer" data-show-transition="left" data-show-delay="300" data-show-duration="1000">
@@ -360,7 +360,7 @@
 					</div>
 					<!-- Image Column -->
 					<div class="col-md-6 col-sm-5 img-block animate" data-show="fade-in-left">
-						<img src="assets/img/mockups/applify-mockup-2-lg.png" alt="Applify - App Landing HTML Template" data-uhd class="responsive-on-sm"
+						<img src="images/phones.png" alt="VRT Select" data-uhd class="responsive-on-sm"
 						    data-max_width="547" />
 					</div>
 				</div>
@@ -506,6 +506,14 @@
 	<script src="assets/js/libs/form-validator/form-validator.min.js"></script>
 	<script src="assets/js/libs/bootstrap.js"></script>
 	<script src="assets/js/applify/build/applify.js"></script>
+
+
+	<style>
+			.ui-gradient-custom {
+    background: -moz-linear-gradient(45deg, #B1FBBC 0%, #54ceff 100%);
+	background: linear-gradient(45deg, #B1FBBC 0%, #54ceff 100%);
+			}
+			</style>
 </body>
 
 </html>
